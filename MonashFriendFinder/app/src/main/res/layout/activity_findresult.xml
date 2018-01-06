@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lnlo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/lnlo1"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:visibility="invisible"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="0dp"
+                android:text="First Name: "
+                android:id="@+id/fdtv1"
+                android:layout_weight="4"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv2"
+                android:layout_weight="6"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv3"
+                android:text="Last Name: "
+                android:layout_weight="4"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv4"
+                android:layout_weight="6"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv5"
+                android:text="Favourite Movie: "
+                android:layout_weight="4"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv6"
+                android:layout_weight="6"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <Button
+                android:layout_width="0dp"
+                android:id="@+id/bt1"
+                android:layout_weight="4"
+                android:text="See Details"
+                android:layout_height="match_parent" />
+            <Button
+                android:layout_width="0dp"
+                android:id="@+id/bt2"
+                android:layout_weight="6"
+                android:text="Add As Friend"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnlo2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="invisible"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv7"
+                android:text="First Name: "
+                android:layout_weight="4"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="6"
+                android:id="@+id/fdtv8"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv9"
+                android:text="Last Name: "
+                android:layout_weight="4"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv10"
+                android:layout_weight="6"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv11"
+                android:text="Favourite Movie: "
+                android:layout_weight="4"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv12"
+                android:layout_weight="6"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:id="@+id/bt3"
+                android:text="See Details"
+                android:layout_height="match_parent" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="6"
+                android:id="@+id/bt4"
+                android:text="Add As Friend"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnlo3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:visibility="invisible"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv13"
+                android:text="First Name: "
+                android:layout_weight="4"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv14"
+                android:layout_weight="6"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv15"
+                android:text="Last Name: "
+                android:layout_weight="4"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv16"
+                android:layout_weight="6"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv17"
+                android:text="Favourite Movie: "
+                android:layout_weight="4"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv18"
+                android:layout_weight="6"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <Button
+                android:layout_width="0dp"
+                android:id="@+id/bt5"
+                android:text="See Details"
+                android:layout_weight="4"
+                android:layout_height="match_parent" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="6"
+                android:id="@+id/bt6"
+                android:text="Add As Friend"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnlo4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="invisible"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv19"
+                android:text="First Name: "
+                android:layout_weight="4"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/fdtv20"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv21"
+                android:text="Last Name: "
+                android:layout_weight="4"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="6"
+                android:id="@+id/fdtv22"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv23"
+                android:text="Favourite Movie: "
+                android:layout_weight="4"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv24"
+                android:layout_weight="6"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:text="See Details"
+                android:id="@+id/bt7"
+                android:layout_height="match_parent" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="6"
+                android:id="@+id/bt8"
+                android:text="Add As Friend"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/lastButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/nextButton"
+            android:layout_alignBottom="@+id/nextButton"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@color/white"
+            android:text="Last Page" />
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@color/white"
+            android:text="Next Page" />
+    </RelativeLayout>
+
+</LinearLayout>

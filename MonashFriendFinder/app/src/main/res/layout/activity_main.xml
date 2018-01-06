@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.example.jiaqiwang.monashfriendfinder.MainActivity">
+
+    <TextView
+        android:id="@+id/mff_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/mff" />
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/loginTable"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:stretchColumns="0,3">
+
+        <TableRow>
+
+            <TextView />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email：" />
+
+            <EditText
+                android:id="@+id/emailTextView"
+                android:layout_width="220px"
+                android:layout_height="40dp" />
+
+            <TextView />
+        </TableRow>
+
+        <TableRow android:layout_marginTop="20px">
+
+            <TextView />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password：" />
+
+            <EditText
+                android:id="@+id/passwordTextView"
+                android:layout_width="220px"
+                android:layout_height="40dp"
+                android:inputType="textPassword" />
+
+            <TextView />
+        </TableRow>
+
+        <TableRow android:layout_marginTop="20px">
+
+            <TextView />
+
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Log in" />
+
+            <Button
+                android:id="@+id/subscribeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subscribe" />
+
+            <TextView />
+        </TableRow>
+    </TableLayout>
+
+
+</RelativeLayout>

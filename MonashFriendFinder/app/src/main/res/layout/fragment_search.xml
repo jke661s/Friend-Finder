@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="@dimen/activity_horizontal_margin">
+    <TextView
+        android:id="@+id/mff_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/mff" />
+
+    <com.example.jiaqiwang.monashfriendfinder.MultiSpinner
+        android:id="@+id/mulSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview_bg"
+        android:layout_below="@+id/mff_image"
+        android:gravity="center"
+        android:text="Please select attributes you want"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:minHeight="45dp" />
+
+    <Button
+        android:id="@+id/findButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mulSpinner"
+        android:layout_marginTop="50dp"
+        android:paddingTop="16dp"
+        android:text="Go to find your friend now!"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+
+</RelativeLayout>

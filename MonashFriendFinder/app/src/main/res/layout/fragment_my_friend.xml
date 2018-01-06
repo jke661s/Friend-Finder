@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lnlo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/lnlo1qq"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:visibility="invisible"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="0dp"
+                android:text="First Name: "
+                android:id="@+id/fdtv1qq"
+                android:layout_weight="4"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv2qq"
+                android:layout_weight="6"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv3qq"
+                android:text="Last Name: "
+                android:layout_weight="4"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv4qq"
+                android:layout_weight="6"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv5qq"
+                android:text="Favourite Movie: "
+                android:layout_weight="4"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv6qq"
+                android:layout_weight="6"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <Button
+                android:layout_width="0dp"
+                android:id="@+id/bt1qq"
+                android:layout_weight="4"
+                android:text="See Details"
+                android:layout_height="match_parent" />
+            <Button
+                android:layout_width="0dp"
+                android:id="@+id/bt2qq"
+                android:layout_weight="6"
+                android:text="Delete Friend"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnlo2qq"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="invisible"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv7qq"
+                android:text="First Name: "
+                android:layout_weight="4"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="6"
+                android:id="@+id/fdtv8qq"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv9qq"
+                android:text="Last Name: "
+                android:layout_weight="4"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv10qq"
+                android:layout_weight="6"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv11qq"
+                android:text="Favourite Movie: "
+                android:layout_weight="4"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv12qq"
+                android:layout_weight="6"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:id="@+id/bt3qq"
+                android:text="See Details"
+                android:layout_height="match_parent" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="6"
+                android:id="@+id/bt4qq"
+                android:text="Delete Friend"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnlo3qq"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:visibility="invisible"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv13qq"
+                android:text="First Name: "
+                android:layout_weight="4"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv14qq"
+                android:layout_weight="6"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv15qq"
+                android:text="Last Name: "
+                android:layout_weight="4"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv16qq"
+                android:layout_weight="6"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv17qq"
+                android:text="Favourite Movie: "
+                android:layout_weight="4"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv18qq"
+                android:layout_weight="6"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <Button
+                android:layout_width="0dp"
+                android:id="@+id/bt5qq"
+                android:text="See Details"
+                android:layout_weight="4"
+                android:layout_height="match_parent" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="6"
+                android:id="@+id/bt6qq"
+                android:text="Delete Friend"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnlo4qq"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="invisible"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv19qq"
+                android:text="First Name: "
+                android:layout_weight="4"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/fdtv20qq"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv21qq"
+                android:text="Last Name: "
+                android:layout_weight="4"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="6"
+                android:id="@+id/fdtv22qq"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv23qq"
+                android:text="Favourite Movie: "
+                android:layout_weight="4"
+                android:layout_height="match_parent" />
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/fdtv24qq"
+                android:layout_weight="6"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:text="See Details"
+                android:id="@+id/bt7qq"
+                android:layout_height="match_parent" />
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="6"
+                android:id="@+id/bt8qq"
+                android:text="Delete Friend"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rloqq"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/lastButtonqq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/nextButton"
+            android:layout_alignBottom="@+id/nextButton"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@color/white"
+            android:text="Last Page" />
+
+        <Button
+            android:id="@+id/nextButtonqq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@color/white"
+            android:text="Next Page" />
+    </RelativeLayout>
+
+</LinearLayout>

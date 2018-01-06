@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="@dimen/activity_horizontal_margin">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context="com.example.jiaqiwang.monashfriendfinder.MainActivity"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:id="@+id/updateProfileTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Update Profile"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/studentIdTextView_updateProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/updateProfileTextView"
+            android:text="Student ID"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/studentIdEditText_updateProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/studentIdTextView_updateProfile" />
+
+        <TextView
+            android:id="@+id/monashEmailTextView_updateProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/studentIdEditText_updateProfile"
+            android:paddingTop="5dp"
+            android:text="Monash Email"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/monashEmailEditText_updateProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/monashEmailTextView_updateProfile" />
+
+        <TextView
+            android:id="@+id/firstNameTextView_updateProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/monashEmailEditText_updateProfile"
+            android:paddingTop="5dp"
+            android:text="First Name"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/firstNameEditText_updateProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/firstNameTextView_updateProfile" />
+
+        <TextView
+            android:id="@+id/surNameTextView_updateProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/firstNameEditText_updateProfile"
+            android:paddingTop="5dp"
+            android:text="Surname"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/surNameEditText_updateProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/surNameTextView_updateProfile" />
+
+        <TextView
+            android:id="@+id/passwordTextView_updateProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/surNameEditText_updateProfile"
+            android:paddingTop="5dp"
+            android:text="Password"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/passwordEditText_updateProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:layout_below="@+id/passwordTextView_updateProfile" />
+
+        <TextView
+            android:id="@+id/passwordConfirmTextView_updateProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/passwordEditText_updateProfile"
+            android:paddingTop="5dp"
+            android:text="Password Confirm"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/passwordConfirmEditText_updateProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:layout_below="@+id/passwordConfirmTextView_updateProfile" />
+
+        <TextView
+            android:id="@+id/genderTextView_updateProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/passwordConfirmEditText_updateProfile"
+            android:paddingTop="5dp"
+            android:text="Gender"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/genderRadioGroup_updateProfile"
+            android:layout_below="@+id/genderTextView_updateProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Gender">
+
+            <RadioButton
+                android:id="@+id/radioMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Male"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/radioFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"></RadioButton>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/dOBTextView_updateProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/genderRadioGroup_updateProfile"
+            android:paddingTop="5dp"
+            android:text="Date of Birth"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <DatePicker
+            android:id="@+id/dOBDatePicker_updateProfile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:datePickerMode="spinner"
+            android:calendarViewShown="false"
+            android:layout_below="@+id/dOBTextView_updateProfile"/>
+
+        <TextView
+            android:id="@+id/studyModeTextView_updateProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dOBDatePicker_updateProfile"
+            android:paddingTop="5dp"
+            android:text="Study Mode"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/studyModeRadioGroup_updateProfile"
+            android:layout_below="@+id/studyModeTextView_updateProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Gender">
+
+            <RadioButton
+                android:id="@+id/radioFullTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Full Time"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/radioPartTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Part Time"></RadioButton>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/currentJobTextView_updateProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/studyModeRadioGroup_updateProfile"
+            android:paddingTop="5dp"
+            android:text="Current Job"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/currentJobEditText_updateProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input Unemployed if don't have a job currently"
+            android:layout_below="@+id/currentJobTextView_updateProfile" />
+
+        <TextView
+            android:id="@+id/courseTextView_updateProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/currentJobEditText_updateProfile"
+            android:paddingTop="5dp"
+            android:text="Course"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/courseSpinner_updateProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/courseTextView_updateProfile"
+            android:entries="@array/courseArray"/>
+
+        <TextView
+            android:id="@+id/addressTextView_updateProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/courseSpinner_updateProfile"
+            android:paddingTop="5dp"
+            android:text="Address"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/addressEditText_updateProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/addressTextView_updateProfile" />
+
+        <TextView
+            android:id="@+id/suburbTextView_updateProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/addressEditText_updateProfile"
+            android:paddingTop="5dp"
+            android:text="Suburb"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/suburbSpinner_updateProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/suburbTextView_updateProfile"
+            android:entries="@array/suburbArray"/>
+
+        <TextView
+            android:id="@+id/nationalityTextView_updateProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/suburbSpinner_updateProfile"
+            android:paddingTop="5dp"
+            android:text="Nationality"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/nationalitySpinner_updateProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nationalityTextView_updateProfile"
+            android:entries="@array/nationalityArray"/>
+
+        <TextView
+            android:id="@+id/nativeLanguageTextView_updateProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nationalitySpinner_updateProfile"
+            android:paddingTop="5dp"
+            android:text="Native Language"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/nativeLanguageSpinner_updateProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nativeLanguageTextView_updateProfile"
+            android:entries="@array/nativeLanguageArray"/>
+
+        <TextView
+            android:id="@+id/favouriteSportTextView_updateProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nativeLanguageSpinner_updateProfile"
+            android:paddingTop="5dp"
+            android:text="Favourite Sport"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/favouriteSportSpinner_updateProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/favouriteSportTextView_updateProfile"
+            />
+
+        <TextView
+            android:id="@+id/favouriteMovieTextView_updateProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/favouriteSportSpinner_updateProfile"
+            android:paddingTop="5dp"
+            android:text="Favourite Movie"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/favouriteMovieEditText_updateProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/favouriteMovieTextView_updateProfile" />
+
+        <TextView
+            android:id="@+id/favouriteUnitTextView_updateProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/favouriteMovieEditText_updateProfile"
+            android:paddingTop="5dp"
+            android:text="Favourite Unit"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/favouriteUnitSpinner_updateProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/favouriteUnitTextView_updateProfile"
+            android:entries="@array/favouriteUnitArray"/>
+
+        <Button
+            android:id="@+id/submitButton_updateProfile"
+            android:layout_below="@+id/favouriteUnitSpinner_updateProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            />
+    </RelativeLayout>
+</RelativeLayout>

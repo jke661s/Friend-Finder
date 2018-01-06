@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loPapa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/lo1tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="Gender: "
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <Spinner
+            android:id="@+id/gender_ff"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:entries="@array/genderArrayff"
+            android:textAppearance="?android:attr/textAppearanceMedium"></Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/lo2tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="Course: "
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <Spinner
+            android:id="@+id/course_ff"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:entries="@array/courseArrayff"
+            android:textAppearance="?android:attr/textAppearanceMedium"></Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lo3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/lo3tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="Study Mode: "
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <Spinner
+            android:id="@+id/studyMode_ff"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:entries="@array/studyModeArrayff"
+            android:textAppearance="?android:attr/textAppearanceMedium"></Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lo4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/lo4tv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="Suburb: "
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <Spinner
+            android:id="@+id/suburb_ff"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:entries="@array/suburbArrayff"
+            android:textAppearance="?android:attr/textAppearanceMedium"></Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lo5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/lo5tv"
+            android:layout_width="0dp"
+            android:text="Nationality: "
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <Spinner
+            android:id="@+id/nationality_ff"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:entries="@array/nationalityArrayff"
+            android:textAppearance="?android:attr/textAppearanceMedium"></Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lo6"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lo6tv"
+            android:layout_width="0dp"
+            android:text="Native Language: "
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <Spinner
+            android:id="@+id/nativelanguage_ff"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:entries="@array/nativeLanguageArrayff"
+            android:textAppearance="?android:attr/textAppearanceMedium"></Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lo7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/lo7tv"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:text="Favourite Sport: "
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <Spinner
+            android:id="@+id/favouritesport_ff"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:entries="@array/favouriteSportArrayff"
+            android:textAppearance="?android:attr/textAppearanceMedium"></Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lo8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/lo8tv"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:text="Favourite Unit: "
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <Spinner
+            android:id="@+id/favouriteunit_ff"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:entries="@array/favouriteUnitArrayff"
+            android:textAppearance="?android:attr/textAppearanceMedium"></Spinner>
+
+    </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/goToFind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:text="There we go!"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+
+
+
+</LinearLayout>
